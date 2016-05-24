@@ -50,6 +50,7 @@
 		950309F39BCA0AE531E1714F98529F96 /* Pods-AWUITools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AWUITools_Example-umbrella.h"; sourceTree = "<group>"; };
 		9756ED561CF3F9D40083B90C /* AWUIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWUIUtils.h; sourceTree = "<group>"; };
 		9756ED571CF3F9D40083B90C /* AWUIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWUIUtils.m; sourceTree = "<group>"; };
+		9756ED5E1CF42B990083B90C /* AWUITools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWUITools.h; sourceTree = "<group>"; };
 		99D1AB83D31581594ABCDAD3B265B7C2 /* Pods-AWUITools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AWUITools_Example-dummy.m"; sourceTree = "<group>"; };
 		9FAE54B62E6DD42936E76267D772A068 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3CFFFCCD26192E585FAB6BC017915D3 /* Pods-AWUITools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AWUITools_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -133,6 +134,7 @@
 		42EEC3926E2AD868A43E75AACA750400 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9756ED5E1CF42B990083B90C /* AWUITools.h */,
 				9756ED561CF3F9D40083B90C /* AWUIUtils.h */,
 				9756ED571CF3F9D40083B90C /* AWUIUtils.m */,
 			);
