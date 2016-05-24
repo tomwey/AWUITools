@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0751AC0D4297A253F05C1E0E6BE3ADFF /* Pods-AWUITools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE53C4982574F2F438BAF483804789EA /* Pods-AWUITools_Tests-dummy.m */; };
+		0C50C9AA52158FAE49E93F338793B88D /* AWUITools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48260C9F87FA6E3D5228C771C6852DAE /* AWUITools-dummy.m */; };
+		4551FD186E0398D0470D32D3623207B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		6072357138477AE2CC4FAF0A9EA0A5DE /* AWUITools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 640826573CE4D6FF632ADD103235ED10 /* AWUITools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		864F915007A36D65D6D6852876C8CD34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		96BBC343166524922D56EAE59A933C4C /* Pods-AWUITools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F70789475F9987B84A00BEC1B17774E7 /* Pods-AWUITools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9756ED581CF3F9D40083B90C /* AWUIUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9756ED561CF3F9D40083B90C /* AWUIUtils.h */; };
+		9756ED591CF3F9D40083B90C /* AWUIUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9756ED561CF3F9D40083B90C /* AWUIUtils.h */; };
+		9756ED5A1CF3F9D40083B90C /* AWUIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9756ED571CF3F9D40083B90C /* AWUIUtils.m */; };
+		9756ED5B1CF3F9D40083B90C /* AWUIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9756ED571CF3F9D40083B90C /* AWUIUtils.m */; };
+		98020399856CB2F7EE512D860EE7479F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9F74EE2127D22135A3F25D208B50317C /* Pods-AWUITools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D1AB83D31581594ABCDAD3B265B7C2 /* Pods-AWUITools_Example-dummy.m */; };
+		C18A2FC50129A0CB92FBE901217C6761 /* Pods-AWUITools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 950309F39BCA0AE531E1714F98529F96 /* Pods-AWUITools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B33415ADFE1DD02A3CCFE788E4C6823C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C59F59B3770131590976F7F935486CA;
+			remoteInfo = AWUITools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19EDF923CA42CD95B1257804E1FC120D /* Pods-AWUITools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AWUITools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		22C3D7E8A3CE3D9B8C0617BC40994CFE /* Pods-AWUITools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AWUITools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		36B556C2C8413B1232E6A3B9ADC5C3CB /* Pods-AWUITools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AWUITools_Tests.modulemap"; sourceTree = "<group>"; };
+		3C199F59838C290D08DAAD59D3646A3E /* Pods-AWUITools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AWUITools_Example.release.xcconfig"; sourceTree = "<group>"; };
+		48260C9F87FA6E3D5228C771C6852DAE /* AWUITools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AWUITools-dummy.m"; sourceTree = "<group>"; };
+		61FF94F7FFED858B10FE989E711D1F0F /* AWUITools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWUITools-prefix.pch"; sourceTree = "<group>"; };
+		640826573CE4D6FF632ADD103235ED10 /* AWUITools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWUITools-umbrella.h"; sourceTree = "<group>"; };
+		66FBB4F3979764459D6EFC0FE764FECF /* Pods-AWUITools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AWUITools_Tests-resources.sh"; sourceTree = "<group>"; };
+		75A47CD8E73EADD5E214659265B1CC7F /* Pods-AWUITools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AWUITools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		784C914004DD22ED58B0BA653E001D88 /* AWUITools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWUITools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB1078E497DA175C5FD85D747C66BC3 /* Pods-AWUITools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AWUITools_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7DA14C73955DEB6EC5E0645C49C58BF4 /* Pods-AWUITools_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AWUITools_Example-resources.sh"; sourceTree = "<group>"; };
+		8A595A40DA653B303A1106BD774AD7CB /* Pods-AWUITools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AWUITools_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		950309F39BCA0AE531E1714F98529F96 /* Pods-AWUITools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AWUITools_Example-umbrella.h"; sourceTree = "<group>"; };
+		9756ED561CF3F9D40083B90C /* AWUIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWUIUtils.h; sourceTree = "<group>"; };
+		9756ED571CF3F9D40083B90C /* AWUIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWUIUtils.m; sourceTree = "<group>"; };
+		99D1AB83D31581594ABCDAD3B265B7C2 /* Pods-AWUITools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AWUITools_Example-dummy.m"; sourceTree = "<group>"; };
+		9FAE54B62E6DD42936E76267D772A068 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3CFFFCCD26192E585FAB6BC017915D3 /* Pods-AWUITools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AWUITools_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A8AA3DE7ACC0D34810B35D8AD2A7FD0C /* Pods-AWUITools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AWUITools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB5FCBFDDD2184BEBE8A4423B5CD8BFA /* AWUITools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AWUITools.xcconfig; sourceTree = "<group>"; };
+		AC504DD2D78F2D7377B93A63F9260217 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1F6CF246C8F5949D1722CE8C2E0C7F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C13F116B2F5CCBA51EE1960CB1FBA4EC /* Pods-AWUITools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AWUITools_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C84537220FFA9574345CA75E310B8993 /* Pods-AWUITools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AWUITools_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E05F5CB5B7E27E090FB43CF584C23D32 /* AWUITools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AWUITools.modulemap; sourceTree = "<group>"; };
+		E07A996B3915D92B2E11395EA62C940B /* Pods_AWUITools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWUITools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7A56DBD17DF8DA97ABC1B71FE8223A /* Pods-AWUITools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AWUITools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECC365C7A1E6AB5282DC90CBC3CD364E /* Pods_AWUITools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWUITools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70789475F9987B84A00BEC1B17774E7 /* Pods-AWUITools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AWUITools_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FE53C4982574F2F438BAF483804789EA /* Pods-AWUITools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AWUITools_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DC7D276093E959207C4198F442B71D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864F915007A36D65D6D6852876C8CD34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F7A3D7F392B48EE8D5EB8A60983171C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98020399856CB2F7EE512D860EE7479F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BD0C10FA86E5CFF6171C3E15EDAA4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4551FD186E0398D0470D32D3623207B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A981BFE18618B0B709741ABA57CF447 /* AWUITools */ = {
+			isa = PBXGroup;
+			children = (
+				42EEC3926E2AD868A43E75AACA750400 /* Classes */,
+			);
+			path = AWUITools;
+			sourceTree = "<group>";
+		};
+		37AB495E595C8897E4CC978125C7BBFA /* Pods-AWUITools_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9FAE54B62E6DD42936E76267D772A068 /* Info.plist */,
+				8A595A40DA653B303A1106BD774AD7CB /* Pods-AWUITools_Example.modulemap */,
+				A8AA3DE7ACC0D34810B35D8AD2A7FD0C /* Pods-AWUITools_Example-acknowledgements.markdown */,
+				22C3D7E8A3CE3D9B8C0617BC40994CFE /* Pods-AWUITools_Example-acknowledgements.plist */,
+				99D1AB83D31581594ABCDAD3B265B7C2 /* Pods-AWUITools_Example-dummy.m */,
+				A3CFFFCCD26192E585FAB6BC017915D3 /* Pods-AWUITools_Example-frameworks.sh */,
+				7DA14C73955DEB6EC5E0645C49C58BF4 /* Pods-AWUITools_Example-resources.sh */,
+				950309F39BCA0AE531E1714F98529F96 /* Pods-AWUITools_Example-umbrella.h */,
+				C13F116B2F5CCBA51EE1960CB1FBA4EC /* Pods-AWUITools_Example.debug.xcconfig */,
+				3C199F59838C290D08DAAD59D3646A3E /* Pods-AWUITools_Example.release.xcconfig */,
+			);
+			name = "Pods-AWUITools_Example";
+			path = "Target Support Files/Pods-AWUITools_Example";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		42EEC3926E2AD868A43E75AACA750400 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9756ED561CF3F9D40083B90C /* AWUIUtils.h */,
+				9756ED571CF3F9D40083B90C /* AWUIUtils.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		597B3F16C6D74DBA6B4F76B457F16306 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E05F5CB5B7E27E090FB43CF584C23D32 /* AWUITools.modulemap */,
+				AB5FCBFDDD2184BEBE8A4423B5CD8BFA /* AWUITools.xcconfig */,
+				48260C9F87FA6E3D5228C771C6852DAE /* AWUITools-dummy.m */,
+				61FF94F7FFED858B10FE989E711D1F0F /* AWUITools-prefix.pch */,
+				640826573CE4D6FF632ADD103235ED10 /* AWUITools-umbrella.h */,
+				AC504DD2D78F2D7377B93A63F9260217 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AWUITools";
+			sourceTree = "<group>";
+		};
+		61F223BB831002A3DB5F0278425B0620 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				784C914004DD22ED58B0BA653E001D88 /* AWUITools.framework */,
+				E07A996B3915D92B2E11395EA62C940B /* Pods_AWUITools_Example.framework */,
+				ECC365C7A1E6AB5282DC90CBC3CD364E /* Pods_AWUITools_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E981E6BC5E0E5835AADCB57607BE55C /* Pods-AWUITools_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B1F6CF246C8F5949D1722CE8C2E0C7F5 /* Info.plist */,
+				36B556C2C8413B1232E6A3B9ADC5C3CB /* Pods-AWUITools_Tests.modulemap */,
+				75A47CD8E73EADD5E214659265B1CC7F /* Pods-AWUITools_Tests-acknowledgements.markdown */,
+				19EDF923CA42CD95B1257804E1FC120D /* Pods-AWUITools_Tests-acknowledgements.plist */,
+				FE53C4982574F2F438BAF483804789EA /* Pods-AWUITools_Tests-dummy.m */,
+				7CB1078E497DA175C5FD85D747C66BC3 /* Pods-AWUITools_Tests-frameworks.sh */,
+				66FBB4F3979764459D6EFC0FE764FECF /* Pods-AWUITools_Tests-resources.sh */,
+				F70789475F9987B84A00BEC1B17774E7 /* Pods-AWUITools_Tests-umbrella.h */,
+				EA7A56DBD17DF8DA97ABC1B71FE8223A /* Pods-AWUITools_Tests.debug.xcconfig */,
+				C84537220FFA9574345CA75E310B8993 /* Pods-AWUITools_Tests.release.xcconfig */,
+			);
+			name = "Pods-AWUITools_Tests";
+			path = "Target Support Files/Pods-AWUITools_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9DEA0C51E45308FBB1ACE8330D660F0E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				61F223BB831002A3DB5F0278425B0620 /* Products */,
+				E0CD3D05CDFE8A726BE5241A114DED3E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9DEA0C51E45308FBB1ACE8330D660F0E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E79A41E658EFB8C97237F2D9C2BC5501 /* AWUITools */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0CD3D05CDFE8A726BE5241A114DED3E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37AB495E595C8897E4CC978125C7BBFA /* Pods-AWUITools_Example */,
+				6E981E6BC5E0E5835AADCB57607BE55C /* Pods-AWUITools_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E79A41E658EFB8C97237F2D9C2BC5501 /* AWUITools */ = {
+			isa = PBXGroup;
+			children = (
+				2A981BFE18618B0B709741ABA57CF447 /* AWUITools */,
+				597B3F16C6D74DBA6B4F76B457F16306 /* Support Files */,
+			);
+			name = AWUITools;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C1BFEFAF927C1AC54F792C6BFFFB11E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BBC343166524922D56EAE59A933C4C /* Pods-AWUITools_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		407057CAECC0B113D061A4B2EC89CB2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9756ED581CF3F9D40083B90C /* AWUIUtils.h in Headers */,
+				6072357138477AE2CC4FAF0A9EA0A5DE /* AWUITools-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D03C07614BECFF781FB73DE61BBD79C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9756ED591CF3F9D40083B90C /* AWUIUtils.h in Headers */,
+				C18A2FC50129A0CB92FBE901217C6761 /* Pods-AWUITools_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		71F09A760DDC4AC764902315BD2860F7 /* Pods-AWUITools_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AD12583DB131C063C31C35AAEE739B /* Build configuration list for PBXNativeTarget "Pods-AWUITools_Tests" */;
+			buildPhases = (
+				6E9F715D11CDCC022E60A20DE70D89F9 /* Sources */,
+				A2BD0C10FA86E5CFF6171C3E15EDAA4D /* Frameworks */,
+				3C1BFEFAF927C1AC54F792C6BFFFB11E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AWUITools_Tests";
+			productName = "Pods-AWUITools_Tests";
+			productReference = ECC365C7A1E6AB5282DC90CBC3CD364E /* Pods_AWUITools_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C59F59B3770131590976F7F935486CA /* AWUITools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08F3200E072A0654F054A96AC0F35CFD /* Build configuration list for PBXNativeTarget "AWUITools" */;
+			buildPhases = (
+				233EA41DA041C7310876416F5CC54927 /* Sources */,
+				7F7A3D7F392B48EE8D5EB8A60983171C /* Frameworks */,
+				407057CAECC0B113D061A4B2EC89CB2C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWUITools;
+			productName = AWUITools;
+			productReference = 784C914004DD22ED58B0BA653E001D88 /* AWUITools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F60A99255A6C3ACA0303A7865ED97405 /* Pods-AWUITools_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E346537D2D8D62CDE337CB38D3950019 /* Build configuration list for PBXNativeTarget "Pods-AWUITools_Example" */;
+			buildPhases = (
+				DB194C3682FF7A8C5D90E78717FB39F3 /* Sources */,
+				2DC7D276093E959207C4198F442B71D4 /* Frameworks */,
+				6D03C07614BECFF781FB73DE61BBD79C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CB106674F7BBE799B02B6623DCBEDA7 /* PBXTargetDependency */,
+			);
+			name = "Pods-AWUITools_Example";
+			productName = "Pods-AWUITools_Example";
+			productReference = E07A996B3915D92B2E11395EA62C940B /* Pods_AWUITools_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 61F223BB831002A3DB5F0278425B0620 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C59F59B3770131590976F7F935486CA /* AWUITools */,
+				F60A99255A6C3ACA0303A7865ED97405 /* Pods-AWUITools_Example */,
+				71F09A760DDC4AC764902315BD2860F7 /* Pods-AWUITools_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		233EA41DA041C7310876416F5CC54927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C50C9AA52158FAE49E93F338793B88D /* AWUITools-dummy.m in Sources */,
+				9756ED5A1CF3F9D40083B90C /* AWUIUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9F715D11CDCC022E60A20DE70D89F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0751AC0D4297A253F05C1E0E6BE3ADFF /* Pods-AWUITools_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB194C3682FF7A8C5D90E78717FB39F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F74EE2127D22135A3F25D208B50317C /* Pods-AWUITools_Example-dummy.m in Sources */,
+				9756ED5B1CF3F9D40083B90C /* AWUIUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CB106674F7BBE799B02B6623DCBEDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWUITools;
+			target = 8C59F59B3770131590976F7F935486CA /* AWUITools */;
+			targetProxy = B33415ADFE1DD02A3CCFE788E4C6823C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04996E8B1B9BEE8578893D10BDA7D72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C13F116B2F5CCBA51EE1960CB1FBA4EC /* Pods-AWUITools_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AWUITools_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AWUITools_Example/Pods-AWUITools_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AWUITools_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A959242ADF2384F3E30F3DDC8CF2E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5FCBFDDD2184BEBE8A4423B5CD8BFA /* AWUITools.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AWUITools/AWUITools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AWUITools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AWUITools/AWUITools.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AWUITools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26F753090B11DF177365454AC703E632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA7A56DBD17DF8DA97ABC1B71FE8223A /* Pods-AWUITools_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AWUITools_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AWUITools_Tests/Pods-AWUITools_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AWUITools_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C20B3475A5EE8FCED23630EEB2EE22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5FCBFDDD2184BEBE8A4423B5CD8BFA /* AWUITools.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AWUITools/AWUITools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AWUITools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AWUITools/AWUITools.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AWUITools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97F8536F4A2DFBF288D1409E7572A841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C199F59838C290D08DAAD59D3646A3E /* Pods-AWUITools_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AWUITools_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AWUITools_Example/Pods-AWUITools_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AWUITools_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DDB7D7E98AFF8D9B3D54EC2636884EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C84537220FFA9574345CA75E310B8993 /* Pods-AWUITools_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AWUITools_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AWUITools_Tests/Pods-AWUITools_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AWUITools_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08F3200E072A0654F054A96AC0F35CFD /* Build configuration list for PBXNativeTarget "AWUITools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A959242ADF2384F3E30F3DDC8CF2E76 /* Debug */,
+				3C20B3475A5EE8FCED23630EEB2EE22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AD12583DB131C063C31C35AAEE739B /* Build configuration list for PBXNativeTarget "Pods-AWUITools_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F753090B11DF177365454AC703E632 /* Debug */,
+				DDB7D7E98AFF8D9B3D54EC2636884EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E346537D2D8D62CDE337CB38D3950019 /* Build configuration list for PBXNativeTarget "Pods-AWUITools_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04996E8B1B9BEE8578893D10BDA7D72E /* Debug */,
+				97F8536F4A2DFBF288D1409E7572A841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

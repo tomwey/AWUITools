@@ -1,0 +1,16 @@
+PODS:
+  - AWUITools (0.1.0)
+
+DEPENDENCIES:
+  - AWUITools (from `../`)
+
+EXTERNAL SOURCES:
+  AWUITools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AWUITools: 2b5caece8c8db3456d06c890cba253c37f572070
+
+PODFILE CHECKSUM: a1e632df3c1ca9c57d2627c55bc325b92a6ded6a
+
+COCOAPODS: 1.0.0

@@ -1,0 +1,6 @@
+framework module AWUITools {
+  umbrella header "AWUITools-umbrella.h"
+
+  export *
+  module * { export * }
+}
