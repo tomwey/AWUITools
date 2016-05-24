@@ -36,10 +36,10 @@ NSString* AWDeviceName()
 NSString* AWDeviceSizeString()
 {
     CGFloat scale = [[UIScreen mainScreen] scale];
-    NSUInteger width = AWFullScreenWidth() * scale;
-    NSUInteger height = AWFullScreenHeight() * scale;
+    int width = AWFullScreenWidth() * scale;
+    int height = AWFullScreenHeight() * scale;
     
-    return [NSString stringWithFormat:@"%ldx%ld", width, height];
+    return [NSString stringWithFormat:@"%dx%d", width, height];
 }
 
 /**
