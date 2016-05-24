@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AWUITools_Example' do
+  pod 'AWUITools', :path => '../'
+
+  target 'AWUITools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
